@@ -1,0 +1,66 @@
+/* Background */
+.stApp{
+    background:#F5F7FB;
+}
+
+/* KPI Cards */
+div[data-testid="metric-container"]{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+/* Titles */
+h1,h2,h3{
+    color:#1E293B;
+}
+def load_css():
+    with open("assets/style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+load_css()
+/* ===== Background ===== */
+
+.stApp{
+    background:#F4F7FE;
+}
+
+/* ===== Sidebar ===== */
+
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+/* ===== Metric Cards ===== */
+
+div[data-testid="metric-container"]{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    border:1px solid #E2E8F0;
+}
+
+/* ===== Buttons ===== */
+
+.stButton>button{
+    border-radius:10px;
+}
+
+/* ===== Dataframe ===== */
+
+[data-testid="stDataFrame"]{
+    border-radius:15px;
+}
+iframe{
+    border-radius:18px;
+}
+iframe{
+    border-radius:18px;
+}
